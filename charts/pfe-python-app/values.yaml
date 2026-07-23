@@ -27,7 +27,7 @@ service:
   port: 5000
 
 ingress:
-  enabled: false
+  enabled: true
   className: "nginx"
   annotations: {}
   hosts:
