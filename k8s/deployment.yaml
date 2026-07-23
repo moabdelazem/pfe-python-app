@@ -50,6 +50,7 @@ metadata:
     app.kubernetes.io/name: pfe-python-app
     app: api
 spec:
+  ingressClassName: nginx
   rules:
   - http:
       paths:
